@@ -26,9 +26,9 @@ public class Main {
 //        for(Product product : service.getProductByName("keyboard"))
 //        for(Product product : service.getProductByPlace("black table"))
 //        for(Product product : service.getProductWithText("cable"))
-        for(Product product : service.getProductsOutOfWarranty(2023))
-        {
-            System.out.println(product);
-        }
+//        for(Product product : service.getProductsOutOfWarranty(2023))
+//        {
+//            System.out.println(product);
+//        }
     }
 }

@@ -6,11 +6,14 @@ import java.util.function.Predicate;
 
 public class Service {
     private List<Product> productList ;
+    private Database database;
     public Service(){
         productList = new LinkedList<Product>();
+        database = new Database();
     }
     public void addProduct(Product product){
-        productList.add(product);
+//        productList.add(product);
+        database.add(product);
     }
 
     public List<Product> getAllProducts(){

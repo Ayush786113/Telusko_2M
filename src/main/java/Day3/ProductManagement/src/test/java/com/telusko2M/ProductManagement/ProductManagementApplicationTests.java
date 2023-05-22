@@ -1,0 +1,13 @@
+package com.telusko2M.ProductManagement;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ProductManagementApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
